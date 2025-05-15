@@ -16,8 +16,8 @@ The assignement was carried out using an iterative process - i.e creating a base
   - Flattens each table column into a separate indexed block.  
 
 - **2 Prompts under 1 Agent**  
-  - The model seemed to struggle with the full context. Therefore it was separated into 2 parts: one prompt extracting the right tables/texts, one prompt to answer the question.
-  - For the baseline, both prompts are done in a single pass but the second one includes chain-of-thought via examples.
+  - The model seemed to struggle with the full context. Therefore it was separated into 2 parts: one prompt extracting the right tables/texts, one prompt answering the question.
+  - For the baseline, both prompts are done in a single pass but the second one includes chain-of-thought reasoning via examples.
 
 - **Model** 
   - All models used are local and open-source with Ollama.
