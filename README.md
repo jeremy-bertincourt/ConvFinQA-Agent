@@ -37,7 +37,7 @@ The assignement was carried out using an iterative process - i.e creating a base
 - **Evaluation Metrics**  
   - Is the agent trying to answer the question? -> Hallucination rate (based on `explanation`) using DeepEval Framework. 
   - Is the agent using the right operations? -> Operation-sequence accuracy on `program`.  
-  - Is the agent using the right arguments? -> Argument-order and value accuracy.  
+  - Is the agent using the right arguments? -> Argument value accuracy.  
   - Did the agent find the right answer? -> Exact-match accuracy on `exe_ans` (rounded up).   
   - Does the explanation sound natural? -> Readability (Flesch Reading Ease).
 
