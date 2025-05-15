@@ -132,7 +132,6 @@ python main.py
 - Table/text indices should be evaluated in order to get retrieval performance
 - Perform eval on a higher number of examples -e.g at least 100 examples
 - Take into account sub-QAs
-- Test retrieving context from vector datastore and sql database
 
 ## Additional Notes
 
