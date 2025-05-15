@@ -72,4 +72,4 @@ class QAPipeline:
 # --- Main Execution ---
 if __name__ == "__main__":
     pipeline = QAPipeline(model_name="gemma3")
-    pipeline.run(limit=10)  # process first 20 examples
+    pipeline.run(limit=10)  # process first 10 examples
