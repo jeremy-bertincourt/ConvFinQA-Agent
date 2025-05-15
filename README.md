@@ -101,8 +101,8 @@ Before running this Agentic module, make sure the following is carried out:
 
 Clone this repo:
 ```bash
-git clone <your-repo-url>
-cd your-repo
+git clone https://github.com/jeremy-bertincourt/ConvFinQA-Agent
+cd ConvFinQA-Agent
 ```
 
 Install dependencies:
