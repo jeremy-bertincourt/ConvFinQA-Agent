@@ -132,8 +132,8 @@ python main.py
 - Table/text indices should be evaluated in order to get retrieval performance
 - Perform eval on a higher number of examples -e.g at least 100 examples
 - Take into account sub-QAs
-- Add more tools for percentage calculation, specific calculations, etc
-- The model still makes argument swapping mistakes - use a different agent type that enables strict json schema calls and/or improve prompt further
+- Add more tools for calculations, i.e specific calculations such as compound interest, etc
+- The model still makes argument swapping mistakes - use openAI to include 2 arguments instead of one string in each function for strict JSON formatting
 - Test with other models - a fined tuned version with LoRa on this dataset could increase the performance
 - Improve monitoring with more logging
 - Add explanation faithfulness as a metric
