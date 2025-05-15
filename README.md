@@ -137,7 +137,7 @@ python main.py
 - Test with other models - a fined tuned version with LoRa on this dataset could increase the performance
 - Improve monitoring with more logging
 - Add explanation faithfulness as a metric
-- Improve scalability - use lambda/apply function across QAs (more memory might be needed), async functions
+- Improve scalability - use async functions across QAs to parallelise questions and agent calls (more memory might be needed)
 - The json parsing can still fail for now, add more robust parser 
 
 ## Additional Notes
