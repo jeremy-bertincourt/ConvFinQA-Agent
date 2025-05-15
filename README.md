@@ -59,7 +59,7 @@ The baseline did not include muti-hop reasoning with function calls. Instead, it
 - **2 Agents**  
   - 1 agent extracting the values needed in a single pass and 1 agent doing the reasoning with muti-hop and CoT reasoning.
   - Four arithmetic tools: `subtract`, `add`, `multiply`, `divide`.  
-  - Tools called by agent are printed to show which ones where used.
+  - Tools called by agent are printed to show which ones were used.
   - Pydantic‐backed input validation for each tool.  
   - LangChain Agent with ReAct loop (`ZERO_SHOT_REACT_DESCRIPTION`) for multi-step reasoning.
 
