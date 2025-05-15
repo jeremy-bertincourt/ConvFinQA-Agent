@@ -132,6 +132,13 @@ python main.py
 - Table/text indices should be evaluated in order to get retrieval performance
 - Perform eval on a higher number of examples -e.g at least 100 examples
 - Take into account sub-QAs
+- Add more tools for percentage calculation, specific calculations, etc
+- The model still makes argument swapping mistakes - use a different agent type that enables strict json schema calls and/or improve prompt further
+- Test with other models - a fined tuned version with LoRa on this dataset could increase the performance
+- Improve monitoring with more logging
+- Add explanation faithfulness as a metric
+- Improve scalability - use lambda/apply function across QAs (more memory might be needed), async functions
+- The json parsing can still fail for now, add more robust parser 
 
 ## Additional Notes
 
