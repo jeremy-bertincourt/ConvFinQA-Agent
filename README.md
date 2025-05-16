@@ -135,7 +135,7 @@ python main.py
 - Add more tools for calculations, i.e specific calculations such as compound interest, etc
 - The model still makes argument swapping mistakes - use openAI to include 2 arguments instead of one string in each function for strict JSON formatting
 - Test with other models - a fined tuned version with LoRa on this dataset could increase the performance
-- Enhance metrics: better argument processing (for now they are just seen as strings), F1 score for answer-match and operation-match. Bleu/Rouge scores could also be added as metrics for program, although it would need more processing beforehand (removal of multiplication by 100, cleaning after CoT makes function call mistakes)
+- Enhance metrics: better program argument processing (for now they are just seen as strings), F1 score for answer-match and operation-match. Bleu/Rouge scores could also be added as metrics for program, although it would need more processing beforehand (removal of multiplication by 100, cleaning after CoT makes function call mistakes)
 - Solve cases where CoT keeps making the same function call multiple times
 - Improve monitoring with more logging
 - Add explanation faithfulness as a metric
